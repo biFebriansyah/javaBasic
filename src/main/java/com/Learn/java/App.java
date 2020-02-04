@@ -1,9 +1,8 @@
 package com.Learn.java;
-
 import com.Learn.java.Service.onlineCourse.onlineCourse;
 import com.Learn.java.model.Student;
-import com.Learn.java.model.App2d;
-import com.Learn.java.model.CompanyImpl;;
+import com.Learn.java.model.CompanyImpl;
+import com.Learn.java.model.App2dImpl;
 
 public class App
 {
@@ -23,7 +22,7 @@ public class App
         cmp.addPrimary("Indonesia", "Jakarta", "Jakarta Utara", "Jln.Tebet Raya");
         // cmp.showDetail();
 
-        App2d twoDApp = new App2d();
+        App2dImpl twoDApp = new App2dImpl();
         twoDApp.addShape("kubus");
         twoDApp.drawShape("kubus");
     }

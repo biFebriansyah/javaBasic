@@ -1,9 +1,11 @@
 package com.Learn.java.model;
 
+import com.Learn.java.Service.App2d.App2d;
+
 /**
  * App2dImpl
  */
-public class App2d {
+public class App2dImpl implements App2d {
 
     private String[] shape = {"Circle", "Rectangle", "Line"};
 
