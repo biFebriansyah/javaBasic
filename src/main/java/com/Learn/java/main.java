@@ -2,11 +2,11 @@ package com.Learn.java;
 import com.Learn.java.Service.onlineCourse.onlineCourse;
 import com.Learn.java.model.Student;
 import com.Learn.java.model.CompanyImpl;
-import com.Learn.java.model.App2dImpl;
+import com.Learn.java.model.GenericClass;
 
-public class App
+public class main
 {
-    App() {
+    main() {
 
         Student ebi = new Student("Muhammad", "Febriansyah", "Prof.Ai", "Palu");
 
@@ -22,9 +22,14 @@ public class App
         cmp.addPrimary("Indonesia", "Jakarta", "Jakarta Utara", "Jln.Tebet Raya");
         // cmp.showDetail();
 
-        App2dImpl twoDApp = new App2dImpl();
-        twoDApp.addShape("kubus");
-        twoDApp.drawShape("kubus");
+        // App2dImpl twoDApp = new App2dImpl();
+        // twoDApp.addShape("kubus");
+        // twoDApp.drawShape("kubus");
+
+        GenericClass<String> gn = new GenericClass<String>();
+
+        gn.addData("Hellow");
+        gn.showData();
     }
 
     public static void main( String[] args )

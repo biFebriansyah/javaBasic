@@ -8,6 +8,6 @@ public interface App2d {
 
     public void drawShape (String Shape);
 
-    default void addShape (String Shape);
+    // default void addShape (String Shape);
 
 }
